@@ -11,7 +11,7 @@ export const MainContent = () => {
                 <div>main-nav</div>
             </Box>
             <Box gridColumn="span 10">
-                <div>mainn</div>
+                <div>main</div>
             </Box>
         </Box>
     );
