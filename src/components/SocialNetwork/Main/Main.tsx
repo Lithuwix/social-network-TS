@@ -8,7 +8,12 @@ type MainPropsType = {
 export const Main:React.FC<MainPropsType> = (props) => {
     return (
         <main className={s.main_container}>
-            main
+            <div>ava + description</div>
+            <div>posts</div>
+            <div>
+                <input type="text"/>
+                <button>add post</button>
+            </div>
         </main>
     );
 };

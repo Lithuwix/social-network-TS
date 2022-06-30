@@ -6,7 +6,8 @@ type NavigationPropsType = {}
 export const Navigation: React.FC<NavigationPropsType> = (props) => {
     return (
         <nav className={s.navigation_container}>
-            navigation
+            <div>profile</div>
+            <div>messages</div>
         </nav>
     );
 };
